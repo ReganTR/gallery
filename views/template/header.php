@@ -1,6 +1,6 @@
 <?php
 
-
+error_reporting(0);
 include_once "../controllers/c_login.php";
 $id = $_SESSION['UserID'];
 $nama = $_SESSION['NamaLengkap'];
